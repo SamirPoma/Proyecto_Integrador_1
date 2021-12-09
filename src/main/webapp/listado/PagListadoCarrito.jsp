@@ -27,9 +27,12 @@
                         <td>${dato.nombre}</td>
                         <td>${dato.precio}</td>
                         <td>${dato.cantidad}</td>
+                        <td>${dato.Total()}</td>
+                       <!--
                         <td>
                             <fmt:formatNumber type = "number"  maxIntegerDigits = "2"  value = "${dato.Total()}" />
                         </td>
+                       -->
                         <td>
                             <a href="javascript:void(0)" onclick="EliminarCarrito(${loop.index})"   class="btn btn-danger"><i class="fa fa-trash"></i></a>
                         </td>
@@ -45,7 +48,10 @@
                     <tr>
                         <td colspan="4" class="text-right">Total</td>
                         <td colspan="2" class="text-left" style="font-weight: bold; font-size: 20px;">
+                            ${total}
+                          <!--
                             <fmt:formatNumber type = "number"  maxIntegerDigits = "2"  value = "${total}" />
+                          -->
                         </td>
                     </tr>
                 </c:if>

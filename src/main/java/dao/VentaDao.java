@@ -191,6 +191,7 @@ public class VentaDao {
                 c.setNombre(rs.getString(1));
                 c.setCantidad(rs.getInt(2));
                 c.setPrecio(rs.getDouble(3));
+                
                 lista.add(c);
             }
         } catch (Exception ex) {

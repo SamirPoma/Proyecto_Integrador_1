@@ -129,10 +129,10 @@ CREATE TABLE `producto` (
 --
 
 INSERT INTO `producto` (`idProducto`, `Nombre`, `precio`, `stock`, `EstadoProducto`) VALUES
-(101, 'Leche Gloria 500ml', 3.7, 121, 'A'),
-(102, 'Jamonada', 1.2, 152, 'A'),
-(103, 'Arroz Fray Martin', 3.6, 115, 'A'),
-(104, 'Salmon', 4, 55, 'I');
+(101, 'Teclado Mecánico', 200, 121, 'A'),
+(102, 'Mouse Logitech', 20, 152, 'A'),
+(103, 'Audifono Gamer', 80, 115, 'A'),
+(104, 'Estabilizador', 100, 55, 'I');
 
 -- --------------------------------------------------------
 

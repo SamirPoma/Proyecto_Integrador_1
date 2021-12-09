@@ -35,7 +35,10 @@
                         <td>${dato.precio}</td>
                         <td>${dato.cantidad}</td>
                         <td>
-                            <fmt:formatNumber type = "number"  maxIntegerDigits = "2"  value = "${dato.Total()}" />
+                           ${dato.Total()}
+                          <!--
+                            <fmt:formatNumber type = "number"  maxIntegerDigits = "2"  value = "${total}" />
+                          -->
                         </td>
                     </tr>
                 </c:forEach>
